@@ -1,0 +1,23 @@
+{
+  "name": "arbiter",
+  "version": "1.0.0",
+  "description": "A sports betting odds aggregator and analyzer",
+  "main": "api/epl/index.js",
+  "scripts": {
+    "start": "node api/soccer/epl/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.7.0",
+    "openai": "^6.6.0"
+  },
+  "keywords": [
+    "sports",
+    "betting",
+    "odds",
+    "api"
+  ],
+  "author": "David Castro",
+  "license": "MIT"
+}
